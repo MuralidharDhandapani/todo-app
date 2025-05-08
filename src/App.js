@@ -4,7 +4,6 @@ import Header from './components/Header';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 import { useTodos } from './hooks/useTodos';
-import Footer from './components/Footer';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -38,7 +37,6 @@ function App() {
           />
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
